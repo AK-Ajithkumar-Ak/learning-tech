@@ -1,0 +1,50 @@
+h1{  color: red; }
+h2{color: rgb(238, 6, 6);}
+h3{color: aqua;
+    border-style: solid;
+    width: fit-content;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 50px;}
+
+p{color: blue;
+    width: max-content;
+    font-size: 3pc;
+  border-style: double;
+  border-width: 10px;}
+
+.hp{border-style: dashed;
+    border-width: 5px;
+    width:max-content;
+    float: left;
+    border: solid blue;
+    padding-bottom:10px;
+    box-sizing:content-box;
+}
+
+.pp
+{color: yellowgreen;
+border: dotted;
+line-height: 1.6em;}
+
+
+.mp{ color:cornflowerblue;
+    width: auto;
+    border: none;
+    letter-spacing: 0.1em;
+    word-spacing: 2px;}
+
+a{background-color: yellow;
+    border-style: double;
+    border-width: 10px;
+    font-size: 50px;
+    text-decoration: none;}
+
+.container{
+    width: 70%; /* % is content responce  */
+    margin: auto;  /* automatic allignment */
+}
+label{display: block;} /* form lable step by step  */
+
+input[type ="text"]{padding: 10px;
+        width: 200px;} 

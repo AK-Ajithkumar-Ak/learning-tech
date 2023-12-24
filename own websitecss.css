@@ -1,0 +1,57 @@
+.c1{
+        width: 70%;
+        min-height: 300px;  /* page responce text no change */
+        border: red 20px solid;
+        margin-top: 60px;
+        position: relative;
+        background-image: url('2.jpg');
+        background-image: no-repeat;
+        background-position: center;
+
+}
+
+.c1 h1{
+        position:absolute; /* absolute is target, any specific location  */
+        top: 70px;
+        left: 20px;
+        
+
+}
+
+.c1 h2{
+    position:absolute; /* absolute is target, any specific location  */
+    bottom: 40px;
+    right: 100px;
+
+}
+.b1{
+    
+    position:fixed ;
+    top: 250px;
+    right: 110px;
+    border: 4px aqua solid;
+    background-color: yellow;
+    width: 100px;
+    padding: 10px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+   
+    color: rgb(0, 255, 106);
+    
+}
+.container{
+    background-color: tomato;
+    height: 100px;
+   
+}
+@media(max-width:500px) {   /* content responce cursor move */
+    .post{width: 100%;
+        float: none;}
+
+}
